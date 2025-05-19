@@ -1,6 +1,6 @@
 # Projeto: Automação de Testes com Playwright e Pytest
 
-Este repositório contém testes automatizados para o site [Sauce Demo](https://www.saucedemo.com/), desenvolvida em **Python** utilizando **Playwright** e **Pytest**, seguindo o padrão **Page Object**. O objetivo é demonstrar a cobertura das principais açoes de usuário na aplicação, buscando possiveis falhas.
+Este repositório contém testes automatizados para o site [Sauce Demo](https://www.saucedemo.com/), desenvolvida em **Python** utilizando **Playwright** e **Pytest**, seguindo o padrão **Page Object**. O objetivo é demonstrar a cobertura das principais açoes de usuário na aplicação, buscando possiveis falhas. [Clique aqui para assistir a um overview explicativo sobre o projeto](https://youtube.com/watch?v=N1KtTGwuuVk&feature=shared).
 
 ## Conteúdo
 
@@ -70,6 +70,7 @@ saucedemo_playwright/
 ├── tests/              # Test suites (test_login.py, test_products.py, ...)
 ├── reports/            # Relatorios html
 ├── conftest.py         # Fixtures Pytest (browser, page, users)
+├── Overview.pdf        # Arquivo de texto mostrando uma visão geral do projeto
 ├── pytest.ini          # Config Pytest (env, timeout)
 └── requirements.txt    # Dependências Python
 ```
